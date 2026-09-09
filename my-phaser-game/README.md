@@ -9,3 +9,6 @@ Tecnologías Utilizadas:
     Phaser
     Vite
     OpenCode
+
+Agentes de OpenCode utilizados:
+    Big Pickle
