@@ -49,20 +49,20 @@ Click izquierdo: Disparar
 -Arquitectura
 src/
 main.js                  # Entry point: llama StartGame()
-  game/
-     main.js                # Config de Phaser, export StartGame()
-     Config.js              # Constantes del juego (scores, rondas, spawns)
-     Logic.js               # GameLogic: estado de puntuación y rondas
-     HighScore.js           # Persistencia en localStorage
-      scenes/
-     Boot.js              # Carga assets iniciales
-     Preloader.js         # Barra de progreso + carga de assets
-     MainMenu.js          # Pantalla principal con botón JUGAR
-    Game.js              # Escena principal de juego 
-    GameOver.js          # Pantalla de victoria/derrota
-    public/
-  assets/                  # bg.png, logo.png
-  favicon.png
+game/
+main.js                # Config de Phaser, export StartGame()
+Config.js              # Constantes del juego (scores, rondas, spawns)
+Logic.js               # GameLogic: estado de puntuación y rondas
+HighScore.js           # Persistencia en localStorage
+scenes/
+Boot.js              # Carga assets iniciales
+Preloader.js         # Barra de progreso + carga de assets
+MainMenu.js          # Pantalla principal con botón JUGAR
+Game.js              # Escena principal de juego 
+GameOver.js          # Pantalla de victoria/derrota
+public/
+assets/                  # bg.png, logo.png
+favicon.png
   style.css
 vite/
  config.dev.mjs           # Configuración de desarrollo
