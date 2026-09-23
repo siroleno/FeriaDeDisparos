@@ -43,6 +43,11 @@ Evitar aliados y dueño
 Mouse: Movimiento
 Click izquierdo: Disparar
 
+-GUÍA:
+Siluetas rojas: ENEMIGOS
+Siluetas verdes: ALIADOS
+Silueta violeta: DUEÑO DE LA TIENDA
+
 -Arquitectura
 src/
   main.js                  # Entry point: llama StartGame()
